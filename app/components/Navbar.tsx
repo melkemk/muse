@@ -12,6 +12,7 @@ const Navbar: React.FC = () => {
             <Link href="/return" style={linkStyle}>Return a Book</Link>
             <Link href="/add-book" style={linkStyle}>add Book</Link>
             <Link href="/taken-books" style={linkStyle}>taken Books</Link>
+            <Link href="/about" style={linkStyle}>About </Link>
         </nav>
     );
 };
