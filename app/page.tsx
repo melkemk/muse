@@ -33,8 +33,8 @@ const Home: React.FC = () => {
 
   return (
     <div>
-      <h1>Welcome to the Library Management System</h1>
-      <BookList books={books} />
+
+<></>      <BookList books={books} />
     </div>
   );
 };
