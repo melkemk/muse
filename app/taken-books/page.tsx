@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useEffect, useState } from 'react';
-import { fetchTakenBooks } from '../utils/api';
+// import { fetchTakenBooks } from '../utils/api';
 
 interface User {
     id: number;
@@ -65,8 +65,8 @@ const TakenBooks: React.FC = () => {
         const loadBooks = async () => {
             try {
                 setLoading(true);
-                const booksData = await fetchTakenBooks();
-                setTakenBooks(booksData);
+                // const booksData = await fetchTakenBooks();
+                setTakenBooks(exampleData);
             // eslint-disable-next-line @typescript-eslint/no-unused-vars
             } catch (err) {
                 setError('Failed to fetch taken books');
